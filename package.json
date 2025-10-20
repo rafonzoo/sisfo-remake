@@ -1,6 +1,6 @@
 {
   "name": "@rafonzoo/ui",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A UI component library for Next.js applications.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -27,7 +27,7 @@
   "author": "",
   "license": "ISC",
   "publishConfig": {
-    "access": "public",
+    "access": "restricted",
     "registry": "https://npm.pkg.github.com/"
   },
   "peerDependencies": {
