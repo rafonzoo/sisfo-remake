@@ -1,0 +1,38 @@
+# Dependencies
+/node_modules
+/dist
+
+# Build output
+# Folder 'dist' adalah output dari tsup build Anda
+# Jangan masukkan ke repository karena akan dibuat saat build
+/dist
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS and Editor Files
+.DS_Store
+.vscode
+.idea
+.env
+.env.local
+
+# Next.js Specific (jika Anda memiliki file Next.js untuk testing/dokumentasi)
+# Karena ini library, umumnya folder ini tidak ada, tapi jaga-jaga.
+/.next/
+/out/
+
+# TypeScript/Tsup cache
+.tsbuildinfo
+
+# Dependency locks (pilih salah satu sesuai package manager Anda)
+package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Testing/Coverage (jika ada)
+/coverage
