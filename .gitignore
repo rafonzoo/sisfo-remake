@@ -17,6 +17,7 @@ lerna-debug.log*
 # OS and Editor Files
 .DS_Store
 .vscode
+.npmrc
 .idea
 .env
 .env.local
